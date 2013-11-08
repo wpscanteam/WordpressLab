@@ -1,0 +1,94 @@
+body { background-color: #555555; }
+
+fieldset
+{
+  background-color: #2d2d2d;
+  color: #FFFFFF;
+  border: 2px solid green;
+  -moz-border-radius :8px;
+  -webkit-border-radius: 8px;  
+  border-radius: 8px;
+}
+
+.menu {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/*
+  CSS Button set by Tobias Reich. Feel free to use it wherever you want.
+  Website: http://electerious.com
+  Twitter: http://twitter.com/electerious
+  Dribbble: http://dribbble.com/electerious
+*/
+
+/* Basics -------------------------------------------------*/
+html, body { height:100%; }
+
+/* Dark Button ------------------------------------------------*/
+a.dark_button {
+  font-size: 11px;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 0px 1px 0px black;
+  text-decoration: none !important;
+  border: 1px solid #000;
+
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+
+  -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.3);
+  -moz-box-shadow: inset 0 1px 0 rgba(255,255,255,0.3);
+  -o-box-shadow: inset 0 1px 0 rgba(255,255,255,0.3);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.3);
+
+  /* All Browser */
+  background: #555;
+  /* Chrome, Safari 4+ */
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(1, #555), color-stop(0, #333));
+  /* Chrome 10+, Safari 5.1+ */
+  background-image: -webkit-linear-gradient(top, #555 0%, #333 100%);
+  /* Firefox 3.6+ */
+  background-image: -moz-linear-gradient(top, #555 0%, #333 100%);
+  /* Opera 11.10+ */
+  background-image: -o-linear-gradient(top, #555 0%, #333 100%);
+  /* W3C */
+  background: linear-gradient(top, #555 0%, #333 100%);
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+
+  cursor: pointer;
+  padding: 3px 10px 5px 10px;
+}
+
+fieldset a.dark_button {
+  float: left;
+  margin: 4px 0px;
+  margin-right: 5px;
+}
+
+a.dark_button:hover {
+  border: 1px solid #333;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.4);
+  -moz-box-shadow: inset 0 1px 0 rgba(255,255,255,0.4);
+  -o-box-shadow: inset 0 1px 0 rgba(255,255,255,0.4);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.4);
+
+  /* All Browser */
+  background: #777;
+  /* Chrome, Safari 4+ */
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(1, #777), color-stop(0, #555));
+  /* Chrome 10+, Safari 5.1+ */
+  background-image: -webkit-linear-gradient(top, #777 0%, #555 100%);
+  /* Firefox 3.6+ */
+  background-image: -moz-linear-gradient(top, #777 0%, #555 100%);
+  /* Opera 11.10+ */
+  background-image: -o-linear-gradient(top, #777 0%, #555 100%);
+  /* W3C */
+  background: linear-gradient(top, #777 0%, #555 100%);
+}
